@@ -9,6 +9,7 @@ The plan is to collate and store data from the 2022-2023 season such as a team's
 
 ## Tech Stack (this may change)
 * Python
+* Visual Studio Code
 * MySQL
 * Google Cloud
 * BigQuery
