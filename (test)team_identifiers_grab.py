@@ -1,5 +1,7 @@
 import json
 
+# The example standings for this test is based on the 2022 - 2022 regular season
+
 standings = {
     "get": "standings",
     "parameters": {
