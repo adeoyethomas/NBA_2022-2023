@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os
 
 def configure():
-    load_dotenv
+    load_dotenv()
 
 configure()
 url = "https://v1.basketball.api-sports.io/standings?league=12&season=2022-2023"
@@ -21,6 +21,11 @@ headers = {
 # The team_info() function grabs the teams id,name,conference and position
 # and organises them in a dictionary where the teams id is the key
 
+response = requests.request("GET", url, headers=headers, data=payload)
+# request.request sends a request of a specified method to the url (in this case the method is GET)
+
+standings = json.loads(response.text)
+# json.loads deserialises a JSON object to a standard python object (good for parsing)
 
 def team_info():
     response = requests.request("GET", url, headers=headers, data=payload)
