@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os
 
 def configure():
-    load_dotenv
+    load_dotenv()
 
 configure()
 url = "https://v1.basketball.api-sports.io/standings?league=12&season=2022-2023"
