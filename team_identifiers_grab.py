@@ -63,8 +63,8 @@ def team_info():
             # print('the team finished ' + t_position + ' in the ' + t_conference,'\n')
             # print('============================================================','\n')
 
-        t_info = {'team_name': t_name, 'conference': t_conference, 'league_position': t_position}
-        t_ids_dict[t_id] = t_info
+            t_info = {'team_name': t_name, 'conference': t_conference, 'league_position': t_position}
+            t_ids_dict[t_id] = t_info
 
 
     return t_ids_dict
