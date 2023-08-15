@@ -56,11 +56,12 @@ def team_info():
             t_conference = team['group']['name']
             t_position = str(team['position'])
 
-            print('team id = ' + t_id)
-            print('team name is ' + t_name)
-            print('the team is in the ' + t_conference)
-            print('the team finished ' + t_position + ' in the ' + t_conference,'\n')
-            print('============================================================','\n')
+#Use the lines below to test that the data for each team is correct
+            # print('team id = ' + t_id)
+            # print('team name is ' + t_name)
+            # print('the team is in the ' + t_conference)
+            # print('the team finished ' + t_position + ' in the ' + t_conference,'\n')
+            # print('============================================================','\n')
 
         t_info = {'team_name': t_name, 'conference': t_conference, 'league_position': t_position}
         t_ids_dict[t_id] = t_info
@@ -68,7 +69,7 @@ def team_info():
 
     return t_ids_dict
 
-
-print(team_info())
+# Uncomment the line below to test if the function provides the desired structure
+# print(team_info())
 
 
