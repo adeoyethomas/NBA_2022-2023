@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-# NBA_2022-2023
- A personal project looking at the NBA 2022-2023 seaon
-=======
 # NBA 2022-2023 Season
 A personal project looking at the NBA 2022-2023 regular season
 
@@ -17,4 +13,3 @@ The plan is to collate and store data from the 2022-2023 season such as a team's
 * Google Cloud
 * BigQuery
 * Power Bi or Tableau
->>>>>>> Stashed changes
