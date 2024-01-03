@@ -2,6 +2,7 @@
 # and adds it to a dictionary where it's key is the teams ID
 
 import requests
+import pandas as pd
 import json
 from dotenv import load_dotenv
 import os
@@ -20,7 +21,6 @@ headers = {
 
 # The team_info() function grabs the teams id,name,conference and position
 # and organises them in a dictionary where the teams id is the key
-
 
 def team_info():
     response = requests.request("GET", url, headers=headers, data=payload)
