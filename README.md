@@ -10,6 +10,7 @@ The plan is to collate and store data from the 2022-2023 season such as a team's
 <ins>15th Dec 2023</ins>:
 It has been a while since I have worked on this project but I am motivated to develop my skills as a data specialist and I believe working on this project is the best way to get me there. I decided to not use MySQL for this project anymore instead, I will use a Pandas DataFrame to organise the scraped data and then will upload the DataFrame to a bucket on Cloud Storage. This removes an extra storage process which would be costly for a large-scale project.
 
+
 ## Tech Stack (this may change)
 * Python
 * Visual Studio Code
