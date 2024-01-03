@@ -2,7 +2,7 @@ import requests
 import json
 from dotenv import load_dotenv
 import os
-from team_identifiers_grab import team_info
+from team_identifiers_grab import team_id_grab
 import time
 
 def configure():
@@ -10,7 +10,7 @@ def configure():
 
 configure()
 
-t_ids_dict = team_info()
+t_ids_dict = team_id_grab()
 team_ids = [k for k in  t_ids_dict.keys()]
 
 # split = team_ids[:3]

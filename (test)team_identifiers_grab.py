@@ -2617,7 +2617,8 @@ def team_id_df_creation(team_lvl):
             df_row += 1
     return team_ids_df
 
-print(team_id_df_creation(team_lvl))
+team_ids_df = team_id_df_creation(team_lvl)
+print(team_ids_df)
 
 
 

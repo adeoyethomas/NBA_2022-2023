@@ -19,52 +19,46 @@ headers = {
     'x-rapidapi-host': 'v1.basketball.api-sports.io'
 }
 
-# The team_info() function grabs the teams id,name,conference and position
-# and organises them in a dictionary where the teams id is the key
+# The team_id_grab() function grabs the teams id,name,conference 
+# and conference position and stores it in a DataFrame
 
-def team_info():
-    response = requests.request("GET", url, headers=headers, data=payload)
+def team_id_grab():
     # request.request sends a request of a specified method to the url (in this case the method is GET)
+    response = requests.request("GET", url, headers=headers, data=payload)
 
-    standings = json.loads(response.text)
     # json.loads deserialises a JSON object to a standard python object (good for parsing)
+    # also it turns nulls to a None python object
+    standings = json.loads(response.text)
 
-    t_lvl = standings['response'][0]
-    # t_lvl (team level) grabs the section of the returned data that we need to parse through to collect 
+    # team_lvl (team level) grabs the section of the returned data that we need to parse through to collect 
     # info on the team
-   
-    t_ids_dict = dict()
-    # Creating an empty dictionary to store team info called t_ids_dict (team ids dictionary) 
+    team_lvl = standings['response'][0]
+       
+    # Creating a DataFrame to store the team API ids
+    team_ids_df = pd.DataFrame(columns = ['Team', 'Team ID', 'Conference', 'Conference Position'])
      
+    # Creating variables that hold the requests daily limit remaining (100 per day) 
+    # and the per minute requests remaining (10 per minute)
     daily_calls_remaining = response.headers['x-ratelimit-requests-remaining']
     perMinute_calls_remaining = response.headers['X-RateLimit-Remaining']
-    # Created variables that hold the requests daily limit remaining (100 per day) 
-    # and the per minute requests remaining (10 per minute)
+    
+    print(f'Daily calls remaining = {daily_calls_remaining}')
+    print(f'Calls left per minute = {perMinute_calls_remaining}\n')
 
-    print('Daily calls remaining = ' + daily_calls_remaining)
-    print('Calls left per minute = ' + perMinute_calls_remaining,'\n')
+    df_row = 0
 
-    for team in t_lvl:
+    for team in team_lvl:
         if team['group']['name'] == "Western Conference" or team['group']['name'] == "Eastern Conference":
-            t_id = str(team['team']['id'])
+            t_id = int(team['team']['id'])
             t_name = team['team']['name']
             t_conference = team['group']['name']
             t_position = str(team['position'])
 
-#Use the lines below to test that the data for each team is correct
-            # print('team id = ' + t_id)
-            # print('team name is ' + t_name)
-            # print('the team is in the ' + t_conference)
-            # print('the team finished ' + t_position + ' in the ' + t_conference,'\n')
-            # print('============================================================','\n')
+            team_ids_df.loc[df_row] = [t_name, t_id, t_conference, t_position]
+            df_row += 1
+    return team_ids_df
 
-            t_info = {'team_name': t_name, 'conference': t_conference, 'league_position': t_position}
-            t_ids_dict[t_id] = t_info
-
-
-    return t_ids_dict
-
-# Uncomment the line below to test if the function provides the desired structure
-# print(team_info())
+team_ids_df = team_id_grab()
+print(team_ids_df)
 
 
