@@ -2596,6 +2596,7 @@ standings='''{
     ]
 }'''
 
+# Creating a DataFrame to store the team API ids
 team_ids_df = pd.DataFrame(columns = ['Team', 'Team ID', 'Conference', 'Conference Position'])
 
 #Loads the json data so nulls are converted to None
