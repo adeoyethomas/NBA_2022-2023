@@ -2621,5 +2621,10 @@ def team_id_df_creation(team_lvl):
 team_ids_df = team_id_df_creation(team_lvl)
 print(team_ids_df)
 
+team_ids = []
 
+for index, row in team_ids_df.iterrows():
+    team_ids.append(row['Team ID'])
+
+print(team_ids)
 
