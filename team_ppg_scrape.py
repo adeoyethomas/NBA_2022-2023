@@ -80,4 +80,4 @@ def team_ppg():
 
     return team_ppg_df
 
-team_ppg()
+team_ppg_df = team_ppg()
