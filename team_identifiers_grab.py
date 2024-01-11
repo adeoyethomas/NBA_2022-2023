@@ -58,7 +58,8 @@ def team_id_grab():
             df_row += 1
     return team_ids_df
 
-team_ids_df = team_id_grab()
-print(team_ids_df)
+# Uncomment the lines below to make sure the function returns the correct information
+# team_ids_df = team_id_grab()
+# print(team_ids_df)
 
 
