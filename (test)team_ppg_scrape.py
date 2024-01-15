@@ -1,4 +1,4 @@
-# Used this file as a test to make sure that I grab the correct PPG information for a team
+# Used this file as a test to make sure that I grab the correct information for a team
 example_data = {
   "get": "statistics",
   "parameters": {
@@ -105,10 +105,31 @@ example_data = {
   }
 }
 
+games_home = example_data["response"]["games"]["played"]["home"]
+games_away = example_data["response"]["games"]["played"]["away"]
+games_all = example_data["response"]["games"]["played"]["all"]
+
+won_home = example_data["response"]["games"]["wins"]["home"]["total"]
+won_away = example_data["response"]["games"]["wins"]["away"]["total"]
+won_all = example_data["response"]["games"]["wins"]["all"]["total"]
+
+lost_home = example_data["response"]["games"]["loses"]["home"]["total"]
+lost_away = example_data["response"]["games"]["loses"]["away"]["total"]
+lost_all = example_data["response"]["games"]["loses"]["all"]["total"]
+
+points_for_home = example_data["response"]["points"]["for"]["total"]["home"]
+points_for_away = example_data["response"]["points"]["for"]["total"]["away"]
+points_for_all = example_data["response"]["points"]["for"]["total"]["all"]
+
+points_against_home = example_data["response"]["points"]["against"]["total"]["home"]
+points_against_away = example_data["response"]["points"]["against"]["total"]["away"]
+points_against_all = example_data["response"]["points"]["against"]["total"]["all"]
+
+
 ppg_for = example_data["response"]["points"]["for"]["average"]["all"]
 ppg_against = example_data["response"]["points"]["against"]["average"]["all"]
 team_name = example_data["response"]["team"]["name"]
 
-print("Team Name is: " + team_name)
-print(team_name +" " + "scored " + str(ppg_for) + " ppg")
-print(team_name + " " + "conceded " + str(ppg_against) + " ppg")
+print(f"{lost_home} home games lost, {lost_away} away games lost, {lost_all} total games lost")
+print(f"{points_for_home} home game points for, {points_for_away} away game points for, {points_for_all} total points for")
+print(f"{points_against_home} home game points against, {points_against_away} away game points against, {points_against_all} total points against")
