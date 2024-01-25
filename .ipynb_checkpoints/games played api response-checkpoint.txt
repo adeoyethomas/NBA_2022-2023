@@ -1,9 +1,4 @@
-import json
-import datetime as dt
-from datetime import datetime
-
-# Used this file as a test to grab useful info from games API response
-example_data = '''{
+{
     "get": "games",
     "parameters": {
         "league": "12",
@@ -6114,31 +6109,4 @@ example_data = '''{
             }
         }
     ]
-}'''
-
-# converts the null's to None 
-games = json.loads(example_data)
-
-game_lvl = games['response'][0]
-
-date = dt.datetime.fromisoformat(game_lvl['date'])
-date = date.date()
-
-print(date)
-print(type(date))
-
-# def reduce_to_regular_season(game_lvl):
-#   for game in game_lvl:
-#       if game['date'] == "Western Conference" or team['group']['name'] == "Eastern Conference":
-#           t_id = int(team['team']['id'])
-#           t_name = team['team']['name']
-#           t_conference = team['group']['name']
-#           t_position = int(team['position'])
-
-#           df_row = 0
-#           team_info_df.loc[df_row] = [t_name, t_conference, t_position]
-#           df_row += 1
-#   return team_info_df
-
-
-
+}
