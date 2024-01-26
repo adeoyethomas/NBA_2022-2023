@@ -6119,26 +6119,40 @@ example_data = '''{
 # converts the null's to None 
 games = json.loads(example_data)
 
-game_lvl = games['response'][0]
+game_lvl = games['response']
 
-date = dt.datetime.fromisoformat(game_lvl['date'])
-date = date.date()
+# test = (datetime(3000, 1, 1))
+# print(test)
+# print(type(test))
+# date = dt.datetime.fromisoformat(game_lvl['date']).date()
+# print(date - datetime(2022, 10, 18).date())
+# print(type(date))
 
-print(date)
-print(type(date))
+def games_by_date(game_lvl):
+    pre_season = 0
+    reg_season = 0
+    post_season = 0
+    
+    for game in game_lvl:
+        if dt.datetime.fromisoformat(game['date']).date() < datetime(2022, 10, 18).date():
+            pre_season += 1
+        elif dt.datetime.fromisoformat(game['date']).date() >= datetime(2022, 10, 18).date() and dt.datetime.fromisoformat(game['date']).date() <= datetime(2023, 4, 9).date():
+            reg_season += 1
+        else:
+            post_season += 1
 
-# def reduce_to_regular_season(game_lvl):
-#   for game in game_lvl:
-#       if game['date'] == "Western Conference" or team['group']['name'] == "Eastern Conference":
-#           t_id = int(team['team']['id'])
-#           t_name = team['team']['name']
-#           t_conference = team['group']['name']
-#           t_position = int(team['position'])
+      
+    print(f"Pre-season: {pre_season}")
+    print(f"Reg-season: {reg_season}")
+    print(f"Post-season: {post_season}")
+    print(f"Total: {pre_season + reg_season + post_season}")
 
-#           df_row = 0
-#           team_info_df.loc[df_row] = [t_name, t_conference, t_position]
-#           df_row += 1
-#   return team_info_df
+# print(date)
+# print(type(date))
+            
+    return None
+
+games_by_date(game_lvl)
 
 
 
