@@ -11,8 +11,8 @@ def configure():
     load_dotenv()
 
 configure()
-url = "https://v1.basketball.api-sports.io/timezone"
-# url = "https://v1.basketball.api-sports.io/games?league=12&season=2022-2023&team=139&timezone=America/New_York"
+#url = "https://v1.basketball.api-sports.io/timezone"
+url = "https://v1.basketball.api-sports.io/games?league=12&season=2022-2023&team=139&timezone=America/New_York"
 
 payload = {}
 headers = {
