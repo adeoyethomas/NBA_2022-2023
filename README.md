@@ -2,7 +2,7 @@
 A project looking at the 2022-2023 NBA regular season. For a more personal read into my journey with the project read the [Project_Journal.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/Project_Journal.md) file.
 
 ## Task
-### Target Data
+#### Target Data
 The initial aim of the task was to extract, organise and store data for NBA teams from an API and analyse this data to see how it affected the teams finishing position during the regular season. The target data was going to be Points Per Game (PPG) scored for and against a team. The aim has developed since then.
 
 There will now be 6 (potentially 7) DataFrames/tables created storing data from the API:
