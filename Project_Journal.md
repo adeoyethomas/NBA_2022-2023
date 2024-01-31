@@ -27,4 +27,3 @@ It has been a while since I have worked on this project, but I am motivated to d
 
 <ins>3rd Jan 2024</ins>:
 Created a table using a DataFrame (DF) to store the team's name/API identifier/League Conference. This DataFrame can now be passed through the API to get the team's PPG for and against, which will then be stored in another DF.
-
