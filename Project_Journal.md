@@ -12,7 +12,7 @@ Since my last update there have been a few changes to the project, for starters 
 
 More info on these tables in the [README.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/README.md) file
 
-## New Challenge
+### New Challenge
 A challenge that has recently come up is that the API has stored data for the pre-season, regular season & the post-season games. This is a challenge because I plan to only work with regular season information for the time being because, during the regular season, all teams play 82 games, making any analysis done on one team more comparable to another team.
 
 ### Possible solution
