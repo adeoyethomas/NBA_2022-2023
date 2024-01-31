@@ -1,4 +1,4 @@
-## Latest update
+# Latest update
 <ins>31st Jan 2024</ins>:
 Since my last update there have been a few changes to the project, for starters I have decided to extract more data from the API than initially intended. At first, I only planned to store data on the Points Per Game (PPG) scored for and against a team, but then I looked into more of the endpoints available on the [RESTful API for basketball data](https://www.api-basketball.com/) API and discovered more useful data. So now I plan to have the following tables:
 
@@ -12,13 +12,13 @@ Since my last update there have been a few changes to the project, for starters 
 
 More info on these tables in the [README.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/README.md) file
 
-### New Challenge
+## New Challenge
 A challenge that has recently come up is that the API has stored data for the pre-season, regular season & the post-season games. This is a challenge because I plan to only work with regular season information for the time being because, during the regular season, all teams play 82 games, making any analysis done on one team more comparable to another team.
 
 ### Possible solution
 Using the *games* endpoint of the API and the *datetime* library on Python, I will create a function using conditional statements to categorise the games played as pre, regular or post-season games. Then for the games that are outside the range of the regular season dates (October 18, 2022, to April 9, 2023) I will remove the Points for, points against, win or loss, for those games from the DataFrames/tables. I will know the solution works if the sum of a team's wins and loses equal 82, and the first and last regular season game recorded is the same on a reputable website (ESPN, NBA etc.).
 
-## Updates
+# Updates
 <ins>8th Aug 2023</ins>:
 The plan is to collate and store data from the 2022-2023 season such as a team's regular season finish position, Points Per Game (PPG) conceded & PPG scored using this [RESTful API for basketball data](https://www.api-basketball.com/). I will use Google Cloud Platform to store the data (most likely using a bucket on cloud storage) and then use UDF to transfer the data to BigQuery where I will do some analysis, and then produce some visualizations using Tableau or PowerBi.
 
