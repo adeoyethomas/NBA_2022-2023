@@ -11,7 +11,6 @@ Since my last update there have been a few changes to the project, for starters 
 * Game Results (*Still deciding on the best design for this table so that it's in a normalised form*)
 
 For a general idea of how the DataFrames/Tables look, have a look at the outputs on the [NBA_data Jupyter Notebooks](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/NBA_data.ipynb) file
-More info on these tables in the [README.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/README.md) file
 
 ### New Challenge
 A challenge that has recently come up is that the API has stored data for the pre-season, regular season & the post-season games. This is a challenge because I plan to only work with regular season information for the time being because, during the regular season, all teams play 82 games, making any analysis done on one team more comparable to another team.
