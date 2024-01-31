@@ -1,6 +1,6 @@
 # Latest update
 <ins>31st Jan 2024</ins>:
-Since my last update there have been a few changes to the project, for starters I have decided to extract more data from the API than initially intended. At first, I only planned to store data on the Points Per Game (PPG) scored for and against a team, but then I looked into more of the endpoints available on the [RESTful API for basketball data](https://www.api-basketball.com/) API and discovered more useful data. So now I plan to have the following tables:
+Since my last update there have been a few changes to the project, for starters I have decided to extract more data from the API than initially intended. At first, I only planned to store data on the Points Per Game (PPG) scored for and against a team, but then I looked into more of the endpoints available on the [RESTful API for basketball data](https://www.api-basketball.com/) API and discovered more useful data. So I have now created the following tables:
 
 * Team info
 * Games played
