@@ -10,6 +10,7 @@ Since my last update there have been a few changes to the project, for starters 
 * Points against
 * Game Results (*Still deciding on the best design for this table so that it's in a normalised form*)
 
+For a general idea of how the DataFrames/Tables look, have a look at the outputs on the [NBA_data](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/NBA_data.ipynb) Jupyter Notebooks file
 More info on these tables in the [README.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/README.md) file
 
 ### New Challenge
