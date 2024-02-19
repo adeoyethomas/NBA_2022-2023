@@ -6119,6 +6119,7 @@ example_data = '''{
 # converts the null's to None 
 games = json.loads(example_data)
 
+game_lvl = games['response']
 
 # test = (datetime(3000, 1, 1))
 # print(test)
@@ -6127,12 +6128,12 @@ games = json.loads(example_data)
 # print(date - datetime(2022, 10, 18).date())
 # print(type(date))
 
-def games_by_date(games['response']):
+def games_by_date(game_lvl):
     pre_season = 0
     reg_season = 0
     post_season = 0
     
-    for game in games['response']:
+    for game in game_lvl:
         if dt.datetime.fromisoformat(game['date']).date() < datetime(2022, 10, 18).date():
             pre_season += 1
         elif dt.datetime.fromisoformat(game['date']).date() >= datetime(2022, 10, 18).date() and dt.datetime.fromisoformat(game['date']).date() <= datetime(2023, 4, 9).date():
@@ -6151,7 +6152,7 @@ def games_by_date(games['response']):
             
     return None
 
-games_by_date(games['response'])
+games_by_date(game_lvl)
 
 
 

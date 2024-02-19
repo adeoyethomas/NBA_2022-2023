@@ -18,7 +18,7 @@ There will now be 6 (potentially 7) DataFrames/tables created storing data from 
 Storing the information this way provides more possibilities when it comes to analysing the data, as opposed to just finding trends based on a teams overall PPG we can now look into PPG home vs PPG away and how it impacted a teams home and away record. Storing the data in this format is also beneficial because the stats for the games played can be truncated to only games played during the regular season, this way analysis of stats will be comparable from team to team because all teams play 82 games during the regular season.
 
 #### Data Store
-The plan is to store the DataFrames created on a Google Cloud Storage (GCS) bucket, then use ETL tools available on Google Cloud to load the data to my data warehouses (BigQuery & Snowflake). In reality, only one of the data warehouses is needed, however I will use both as a way to learn and practice. Ideally, I would like to keep this project on the cloud and make the data accessible to everyone, but that depends on the charges of storing the data and using the data warehouse.
+The plan is to store the DataFrames created on a Google Cloud Storage (GCS) bucket and on Microsoft Azure blob storage, then use ETL tools available on Google Cloud and Microsfot Azure to load the data to my data warehouses (BigQuery & Snowflake). In reality, only one of the cloud data stores is needed and only one of the data warehouses is needed, however I will use all four as a way to learn and practice. Ideally, I would like to keep this project on the cloud and make the data accessible to everyone, but that depends on the charges of storing the data and using the data warehouse.
 
 #### Data Analysis
 PowerBi and Tableau also do similar things, however, I will use both for practice purposes.
@@ -28,5 +28,6 @@ PowerBi and Tableau also do similar things, however, I will use both for practic
 * Visual Studio Code
 * Jupyter Notebook
 * Google Cloud
+* Microsoft Azure
 * BigQuery & Snowflake 
 * Power Bi & Tableau 
