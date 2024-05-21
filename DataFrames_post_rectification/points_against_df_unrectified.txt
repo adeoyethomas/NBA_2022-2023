@@ -1,0 +1,32 @@
+                      Team  Home points against  Away points against  \
+0           Denver Nuggets                 5831                 6069   
+1        Memphis Grizzlies                 5005                 5462   
+2         Sacramento Kings                 5576                 5275   
+3             Phoenix Suns                 5301                 5456   
+4    Golden State Warriors                 5585                 6015   
+5     Los Angeles Clippers                 5117                 5108   
+6     New Orleans Pelicans                 4731                 5169   
+7       Los Angeles Lakers                 6052                 6080   
+8   Minnesota Timberwolves                 5151                 5672   
+9    Oklahoma City Thunder                 4839                 5353   
+10        Dallas Mavericks                 4730                 4937   
+11               Utah Jazz                 5018                 5100   
+12  Portland Trail Blazers                 5010                 5095   
+13         Houston Rockets                 4917                 5236   
+14       San Antonio Spurs                 5309                 5352   
+15         Milwaukee Bucks                 5324                 5169   
+16          Boston Celtics                 5914                 5852   
+17      Philadelphia 76ers                 5206                 5444   
+18     Cleveland Cavaliers                 4813                 4888   
+19         New York Knicks                 5420                 5359   
+20           Brooklyn Nets                 4946                 5129   
+21              Miami Heat                 6092                 6097   
+22           Atlanta Hawks                 5425                 5541   
+23         Toronto Raptors                 4939                 4869   
+24           Chicago Bulls                 4904                 4917   
+25      Washington Wizards                 4899                 4891   
+26           Orlando Magic                 4917                 4955   
+27          Indiana Pacers                 5131                 5115   
+28       Charlotte Hornets                 5112                 5081   
+29         Detroit Pistons                 5100                 5084   
+

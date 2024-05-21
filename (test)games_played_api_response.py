@@ -6124,7 +6124,7 @@ game_lvl = games['response']
 # test = (datetime(3000, 1, 1))
 # print(test)
 # print(type(test))
-# date = dt.datetime.fromisoformat(game_lvl['date']).date()
+date = dt.datetime.fromisoformat(game_lvl[0]['date']).date()
 # print(date - datetime(2022, 10, 18).date())
 # print(type(date))
 
@@ -6148,7 +6148,7 @@ def games_by_date(game_lvl):
     print(f"Total: {pre_season + reg_season + post_season}")
 
 # print(date)
-# print(type(date))
+    print(type(date))
             
     return None
 

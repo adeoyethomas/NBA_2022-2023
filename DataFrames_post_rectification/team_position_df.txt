@@ -1,0 +1,32 @@
+                       Team ID          Conference Conference Position
+Team                                                                   
+Denver Nuggets              139  Western Conference                   1
+Memphis Grizzlies           146  Western Conference                   2
+Sacramento Kings            157  Western Conference                   3
+Phoenix Suns                155  Western Conference                   4
+Golden State Warriors       141  Western Conference                   5
+Los Angeles Clippers        144  Western Conference                   6
+New Orleans Pelicans        150  Western Conference                   7
+Los Angeles Lakers          145  Western Conference                   8
+Minnesota Timberwolves      149  Western Conference                   9
+Oklahoma City Thunder       152  Western Conference                  10
+Dallas Mavericks            138  Western Conference                  11
+Utah Jazz                   160  Western Conference                  12
+Portland Trail Blazers      156  Western Conference                  13
+Houston Rockets             142  Western Conference                  14
+San Antonio Spurs           158  Western Conference                  15
+Milwaukee Bucks             148  Eastern Conference                   1
+Boston Celtics              133  Eastern Conference                   2
+Philadelphia 76ers          154  Eastern Conference                   3
+Cleveland Cavaliers         137  Eastern Conference                   4
+New York Knicks             151  Eastern Conference                   5
+Brooklyn Nets               134  Eastern Conference                   6
+Miami Heat                  147  Eastern Conference                   7
+Atlanta Hawks               132  Eastern Conference                   8
+Toronto Raptors             159  Eastern Conference                   9
+Chicago Bulls               136  Eastern Conference                  10
+Washington Wizards          161  Eastern Conference                  11
+Orlando Magic               153  Eastern Conference                  12
+Indiana Pacers              143  Eastern Conference                  13
+Charlotte Hornets           135  Eastern Conference                  14
+Detroit Pistons             140  Eastern Conference                  15

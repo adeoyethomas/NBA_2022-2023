@@ -1,0 +1,31 @@
+                      Team  Home loses  Away loses  Total loses
+0           Denver Nuggets           9          26           35
+1        Memphis Grizzlies           8          29           37
+2         Sacramento Kings          20          18           38
+3             Phoenix Suns          16          28           44
+4    Golden State Warriors          12          35           47
+5     Los Angeles Clippers          22          22           44
+6     New Orleans Pelicans          15          27           42
+7       Los Angeles Lakers          24          28           52
+8   Minnesota Timberwolves          21          25           46
+9    Oklahoma City Thunder          18          26           44
+10        Dallas Mavericks          19          26           45
+11               Utah Jazz          20          28           48
+12  Portland Trail Blazers          25          28           53
+13         Houston Rockets          27          34           61
+14       San Antonio Spurs          30          34           64
+15         Milwaukee Bucks          14          19           33
+16          Boston Celtics          16          20           36
+17      Philadelphia 76ers          14          18           32
+18     Cleveland Cavaliers          13          25           38
+19         New York Knicks          19          22           41
+20           Brooklyn Nets          22          21           43
+21              Miami Heat          20          30           50
+22           Atlanta Hawks          20          27           47
+23         Toronto Raptors          16          28           44
+24           Chicago Bulls          20          24           44
+25      Washington Wizards          24          26           50
+26           Orlando Magic          21          28           49
+27          Indiana Pacers          22          27           49
+28       Charlotte Hornets          31          29           60
+29         Detroit Pistons          34          35           69
