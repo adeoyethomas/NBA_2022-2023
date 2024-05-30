@@ -1,0 +1,31 @@
+                      Team  Home points for  Away points for  Total points for
+0           Denver Nuggets             6332             5998             12330
+1        Memphis Grizzlies             5459             5311             10770
+2         Sacramento Kings             5773             5390             11163
+3             Phoenix Suns             5501             5402             10903
+4    Golden State Warriors             5971             5816             11787
+5     Los Angeles Clippers             5180             5046             10226
+6     New Orleans Pelicans             4937             5129             10066
+7       Los Angeles Lakers             6233             5892             12125
+8   Minnesota Timberwolves             5200             5617             10817
+9    Oklahoma City Thunder             5050             5242             10292
+10        Dallas Mavericks             4835             4849              9684
+11               Utah Jazz             5041             4964             10005
+12  Portland Trail Blazers             4841             4848              9689
+13         Houston Rockets             4791             4772              9563
+14       San Antonio Spurs             5026             4758              9784
+15         Milwaukee Bucks             5561             5147             10708
+16          Boston Celtics             6408             6001             12409
+17      Philadelphia 76ers             5415             5613             11028
+18     Cleveland Cavaliers             5141             4957             10098
+19         New York Knicks             5686             5382             11068
+20           Brooklyn Nets             5007             5065             10072
+21              Miami Heat             6194             6051             12245
+22           Atlanta Hawks             5510             5463             10973
+23         Toronto Raptors             5143             4790              9933
+24           Chicago Bulls             5059             4915              9974
+25      Washington Wizards             4866             4800              9666
+26           Orlando Magic             4910             4758              9668
+27          Indiana Pacers             5099             4895              9994
+28       Charlotte Hornets             4786             4806              9592
+29         Detroit Pistons             4815             4637              9452

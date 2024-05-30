@@ -1,0 +1,31 @@
+                      Team  Home games  Away games  Total games
+0           Denver Nuggets          54          53          107
+1        Memphis Grizzlies          46          47           93
+2         Sacramento Kings          47          46           93
+3             Phoenix Suns          48          48           96
+4    Golden State Warriors          50          50          100
+5     Los Angeles Clippers          46          44           90
+6     New Orleans Pelicans          43          45           88
+7       Los Angeles Lakers          54          51          105
+8   Minnesota Timberwolves          45          49           94
+9    Oklahoma City Thunder          42          46           88
+10        Dallas Mavericks          42          43           85
+11               Utah Jazz          43          43           86
+12  Portland Trail Blazers          42          44           86
+13         Houston Rockets          43          43           86
+14       San Antonio Spurs          44          43           87
+15         Milwaukee Bucks          47          45           92
+16          Boston Celtics          54          52          106
+17      Philadelphia 76ers          48          49           97
+18     Cleveland Cavaliers          46          45           91
+19         New York Knicks          49          48           97
+20           Brooklyn Nets          45          45           90
+21              Miami Heat          56          56          112
+22           Atlanta Hawks          46          47           93
+23         Toronto Raptors          45          43           88
+24           Chicago Bulls          44          44           88
+25      Washington Wizards          43          43           86
+26           Orlando Magic          43          44           87
+27          Indiana Pacers          43          43           86
+28       Charlotte Hornets          44          43           87
+29         Detroit Pistons          43          43           86
