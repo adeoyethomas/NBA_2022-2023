@@ -1,5 +1,5 @@
 # NBA 2022-2023 Season
-A project looking at the 2022-2023 NBA regular season. For a more personal read into my journey with the project, read the [Project_Journal.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/Project_Journal.md) file.
+A project looking at the 2022-2023 NBA regular season. Check out the [Jupyter Notebook](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/0.NBA_data.ipynb), and for a more personal read into my journey with the project, read the [Project_Journal.md](https://github.com/adeoyethomas/NBA_2022-2023/blob/main/Project_Journal.md) file.
 
 ## Task
 #### Target Data
