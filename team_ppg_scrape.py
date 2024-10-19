@@ -11,13 +11,6 @@ def configure():
 
 configure()
 
-# may not be needed anymore because using df's now
-'''t_ids_dict = team_id_grab()
-team_ids = [k for k in  t_ids_dict.keys()]'''
-
-# split = team_ids[:3]
-# print(split)
-
 def team_ppg():
     team_ids_df = team_id_grab()
     team_ppg_df = pd.DataFrame(columns = ['Team', 'Team ID', 'PPG For', 'PPG Against'])
